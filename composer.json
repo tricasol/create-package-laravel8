@@ -1,0 +1,24 @@
+{
+    "name": "daud/assignment",
+    "description": "Assignment by tevtex",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Daud\\Assignment\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "daud",
+        "email": "daud_khan@live.com"
+    }],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Daud\\Assignment\\Assignment"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
